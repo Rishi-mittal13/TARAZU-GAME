@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Poppins:ital,wght@0,400;0,500;1,400;1,600&display=swap');
+
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color:#432818;
+    font-family: 'Bitter', serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.head{
+    background-color: #bb9457;
+    width: 100vw;
+    height: 12vh;
+    font-family: 'Bitter', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+}
+.head a{
+    background-color: #bb9457;
+}
+.head .logo{
+    margin: 18px 5px 0 39%;
+    width: 320px;
+    background-color: #bb9457;
+}
+.head .git{
+    margin: 0 5px 5px 34%;
+    width: 34px;
+    background-color: #bb9457;
+}
+.explain div img {
+    margin-left: 38vw;
+    margin-top: 5px ; 
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.explain p{
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.explain div{
+    background-color: aliceblue;
+}
+.explain{
+    display: block;
+    font-family: 'Bitter', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0 10px 20px;
+    height: 40vh;
+    width: 40vw;
+    z-index: 1;
+    background-color: aliceblue;
+    position: sticky;
+    border-radius: 15px;
+}
+.btn{
+    background-color: black; 
+    color: aliceblue;
+    font-family: 'Bitter', serif;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+    margin: 10px 0 2px 10px;
+    width: 100px;
+    padding: 2px;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: aliceblue;
+    color: black;
+}
+.players{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.player{
+    background-color: aliceblue;
+    width: 260px;
+    height: 300px;
+    font-family: 'Bitter', serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 15vh 20px 20px 20px ;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(11, 11, 11);
+}
+.player input {
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+.player p {
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+.player .score{
+    margin-top: 26px;
+    font-size: 20px;
+}
+
+.start{
+    background-color: #ffe6a7;
+    width: 90px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 8px;
+    padding: 4px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 48%;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.start:active {
+    background-color: white;
+}
+.result{
+    font-weight: 500;
+    margin-left: 56%;
+    margin-top: -40px;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.footer{
+    background-color: #bb9457;
+    width: 100vw;
+    height: 8vh;
+    font-family: 'Bitter', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1vw;
+    margin: 40vh 0 -20px 0;
+    text-align: center;
+}
