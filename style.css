@@ -94,6 +94,7 @@ body{
 .player input {
     background-color: aliceblue;
     margin-top: 10px;
+    border-radius: 4px ;
 }
 .player p {
     margin-top: 20px;
